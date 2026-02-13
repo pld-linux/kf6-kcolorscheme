@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.22
+%define		kdeframever	6.23
 %define		qtver		5.15.2
 %define		kfname		kcolorscheme
 
 Summary:	Color Scheme
 Name:		kf6-%{kfname}
-Version:	6.22.0
-Release:	2
+Version:	6.23.0
+Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	f2105e6bd2ee66a2e5004a7bbcb89a14
+# Source0-md5:	13d3f9b0e8603d11ec5021fc89655e8e
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
