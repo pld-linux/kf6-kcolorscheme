@@ -50,6 +50,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Classes to read and interact with KColorScheme.
 
+%description -l pl.UTF-8
+Klasy do czytania i interakcji z KColorScheme.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
